@@ -341,7 +341,7 @@ public class EstimationAutomation6 {
 						row.getCell(li)
 								.setCellValue(driver.findElement(By.id("storyPointLikelyPopup")).getAttribute("value"));
 
-						System.out.println(count++);
+						System.out.println(++count);
 					} catch (Exception e) {
 
 					}
